@@ -1,0 +1,72 @@
+nav.filter-nav{
+    width : 300px; 
+    background: #d9d9d9;
+    margin : 40px auto; 
+  }
+  
+  span.shop-filter {
+    padding : 30px;
+    background : #2d2f31; 
+    color : white;
+    font-size : 1.2em;
+    cursor : pointer;
+    display: block;
+  }
+
+span.statistic-filter {
+    padding : 10px;
+    background : #2d2f31;
+    color : white;
+    font-size : 1.2em;
+    cursor : pointer;
+    display: block;
+}
+  
+  .slide {
+    clear:both;
+    width:100%;
+    height:0;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+  }
+  
+  .slide li {
+      padding : 20px;
+      marker:none;
+  }
+
+  
+  label.filter-label {
+      color: black;
+  }
+
+  
+  
+  #touch {position: absolute; opacity: 0; height: 0;}
+  
+  #touch:checked + .slide {height: 425px;}
+
+#touchAdd:checked + .slide {height: 250px;}
+
+#touch:checked + .slideStatistic {height: 225px;}
+.slideStatistic {
+    clear:both;
+    width:100%;
+    height:0;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+.slideStatistic li {
+    padding : 5px;
+    marker:none;
+}
+
+ul
+{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}

@@ -1,0 +1,45 @@
+main {
+    display: table;
+    width: 100vw;
+}
+
+div.fishimg svg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.fishdescription {
+    display: inline-block;
+}
+
+div.cannotAfford {
+    color: #D8000C;
+    background-color: #FFBABA;
+    text-align: center;
+    height: 50px;
+}
+
+aside.filterside {
+    margin-left: 2vw;
+    width: 15%;
+    float: left;
+}
+
+
+input.name-form{
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    text-align: center;
+}
+
+input.number-buy-form{
+    width: 150px;
+    border: none;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+
