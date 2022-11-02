@@ -9,8 +9,8 @@ $password = null;
 
 // checks if login is triggerd
 if(isset($_GET['login'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+   // $username = $_POST['username'];
+    //$password = $_POST['password'];
 
     // ecxecutes query
     $statement = "SELECT * FROM users WHERE username = '" . $username . "'";
